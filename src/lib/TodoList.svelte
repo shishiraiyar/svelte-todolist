@@ -32,8 +32,8 @@
 {/each}
 
 <form on:submit|preventDefault={addTask}>
-    <input type="text" bind:value={text}> 
-    <button type="submit">Submit</button>
+    <input required type="text" placeholder="Task" oninvalid="this.setCustomValidity('Enter a task you idiot')" oninput="setCustomValidity('')" bind:value={text}> 
+    <button type="submit" >Submit</button>
 
 </form>
 

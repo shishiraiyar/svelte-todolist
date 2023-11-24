@@ -34,11 +34,9 @@
     }
     
     .xbutton{
-        min-width: none;
         background-color: darkgray;
-        border-radius: 5000px;
-        font-size:x-small;
-        /* padding: 5px; */
+        border-radius: 500px;
+        font-size:xx-small;
     }
     div{
         margin-top: 10px;
